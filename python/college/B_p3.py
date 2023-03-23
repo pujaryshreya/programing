@@ -14,6 +14,7 @@ e=MyException()
 for i in range(1,10):
     try:
         r=e.getNum()
+        print()
         if r==1:
             break
     except MyException as me:
